@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Poppins, sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 4rem;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 2vw;
+  background-color: black;
+}
+nav > div:last-child {
+  color: white;
+  border: 1px solid black;
+  width: 35rem;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 5rem;
+}
+nav > div:first-child {
+  color: white;
+  width: 10rem;
+  height: 70%;
+  margin-right: 36rem;
+  align-items: center;
+}
+
+nav img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+nav p {
+  font-size: 1.5rem;
+}
+
+nav a:hover {
+  color: rgb(22, 188, 22);
+}
+
+.main {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 92vh;
+  background-image: linear-gradient(
+      rgba(189, 56, 189, 0.8) 10%,
+      rgb(144, 29, 162, 0.7) 48%,
+      rgba(155, 21, 139, 0.75) 85%
+    ),
+    url("images/bubbles.jpg");
+  background-size: contain;
+  border: 1px solid;
+}
+
+.container {
+  height: 88%;
+  width: 20vw;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: white;
+  margin-top: 12vh;
+  left: 14rem;
+}
+.main img {
+  bottom: 0;
+  position: absolute;
+  height: 96%;
+  width: 20vw;
+}
+
+.main .content {
+  position: absolute;
+  margin-right: 6rem;
+  height: 60%;
+  width: 40%;
+  top: 30%;
+  right: 3%;
+}
+
+.content h1 {
+  font-size: 3rem;
+}
+
+.content button {
+  margin-top: 3rem;
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  background-color: white;
+  font-weight: bold;
+}
+
+.content button:hover {
+  transform: scale(1.1);
+}
+
+.whyspo {
+  margin-top: 4rem;
+  width: 100%;
+  height: 40rem;
+}
+
+.whyspo h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.whythings img {
+  height: 10rem;
+
+  width: 10rem;
+}
+
+.whythings {
+  margin-inline: auto;
+  margin-top: 4.5rem;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15rem;
+}
+
+.whythings .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.required {
+  position: relative;
+  margin-top: 10rem;
+  width: 100%;
+  height: 25rem;
+  background-image: linear-gradient(
+    rgb(178, 24, 178) 35%,
+    rgb(70, 70, 175) 90%
+  );
+}
+
+.required h1 {
+  position: absolute;
+  text-align: center;
+  width: 40rem;
+  height: 6rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.query {
+  margin-top: 27rem;
+  width: 40%;
+  height: 15rem;
+  display: grid;
+  margin-inline: auto;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.query div {
+  border-bottom: 1px solid rgb(141, 141, 141, 0.4);
+}
+
+.query p {
+  margin-top: 17px;
+}
+
+.query div:last-of-type {
+  border: none;
+}
+
+.ready {
+  margin-top: 5rem;
+  width: 100%;
+  height: 25rem;
+  /* background-image: linear-gradient(
+      rgb(181, 50, 181) 30%,
+      rgb(152, 13, 152) 80%
+    ),
+    url("images/bubbles.jpg"); */
+
+  background-image: linear-gradient(
+      rgba(189, 56, 189, 0.8) 10%,
+      rgb(144, 29, 162, 0.7) 48%,
+      rgba(155, 21, 139, 0.75) 85%
+    ),
+    url("images/bubbles.jpg");
+  background-size: contain;
+  position: relative;
+}
+.con {
+  position: absolute;
+  height: 70%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.con {
+  color: black;
+  font-size: 3rem;
+}
+
+.con h2 {
+  margin-top: 2rem;
+}
+
+.con button {
+  margin-top: 2rem;
+  border: none;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+}
+#fd1 {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  /* border: white 2px solid; */
+}
+
+#fd1 > img {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+#fd1 > h3 {
+  font-size: 25px;
+  margin-left: 10px;
+  color: white;
+  margin-top: 4rem;
+}
+
+.fd {
+  margin-left: 10rem;
+  background-color: black;
+  height: 34vh;
+  display: flex;
+  justify-content: center;
+}
+
+#ft {
+  /* border: white 2px solid; */
+  color: white;
+  /* margin: auto; */
+}
+thead > tr {
+  font-size: 0.9em;
+  color: gray;
+}
+td {
+  padding: 5px;
+  padding-right: 250px;
+  text-align: center;
+}
+tbody > tr > td {
+  font-size: 20px;
+  font-weight: 500;
+}
